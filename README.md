@@ -3,6 +3,7 @@ Ethereum bidding
 
 - Geth
 - Solidity
+- Web3.js
 - Vanilla JavaScript
 - BootStrap4
 
