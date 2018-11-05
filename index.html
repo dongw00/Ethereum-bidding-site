@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="./index.css">
-  <title>Document</title>
+  <title>Ethereum Auction</title>
 </head>
 
 <body>
@@ -35,10 +35,10 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>title exp</td>
-                    <td>Fn exp</td>
-                    <td>Ln exp</td>
-                    <td>B exp</td>
+                    <td id="hTitle">title exp</td>
+                    <td id="hFname">Fn exp</td>
+                    <td id="hLname">Ln exp</td>
+                    <td id="hBid">B exp</td>
                   </tr>
                 </tbody>
               </table>
@@ -52,10 +52,10 @@
             </div>
             <div class="card-body">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item small text-muted">Title Area</li>
-                <li class="list-group-item small text-muted">FName Area</li>
-                <li class="list-group-item small text-muted">Lname Area</li>
-                <li class="list-group-item small text-muted">Bid Area</li>
+                <li id="rTitle" class="list-group-item small text-muted">Title Area</li>
+                <li id="rFname" class="list-group-item small text-muted">FName Area</li>
+                <li id="rLname" class="list-group-item small text-muted">Lname Area</li>
+                <li id="rAmount" class="list-group-item small text-muted">Bid Area</li>
               </ul>
             </div>
           </div>
@@ -89,7 +89,7 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="./index.js"></script>
 
 </html>
