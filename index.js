@@ -10,7 +10,7 @@ else {
 
 web3.eth.defaultAccount = web3.eth.accounts[0];
 
-const contractAddress = '0x158bd875ebfca54db7be0cae4283050312bcdde6';
+const contractAddress = ''/* your contract address */;
 const ABI = [
   {
     constant: false,
